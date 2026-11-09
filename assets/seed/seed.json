@@ -1,0 +1,280 @@
+{
+  "meta": { "version": 1, "currency": "MMK" },
+  "products": [
+    {
+      "id": "p_coconut",
+      "code": "JD022123",
+      "name": "Coconut Donut",
+      "priceMmk": 3200,
+      "isNew": true,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_choco_drizzle.png",
+      "imageUrl": "images/donut_choco_drizzle.png",
+      "description": "Enjoy our scrumptious donuts – soft, sweet, and satisfying in every bite. Choose from classic glazed, rich chocolate, or fun sprinkles. Dive into deliciousness now! Our coconut donut is finished with toasted coconut flakes and a ribbon of strawberry drizzle over dark chocolate."
+    },
+    {
+      "id": "p_mistletoe_box",
+      "code": "JD031201",
+      "name": "Mistletoe Romance box",
+      "priceMmk": 18000,
+      "isNew": false,
+      "discountPercent": 50,
+      "imageAsset": "assets/images/box_mistletoe.png",
+      "imageUrl": "images/box_mistletoe.png",
+      "description": "Six hand-picked festive donuts in a kraft gift box: sprinkles, coconut and chocolate drizzle. Perfect for sharing under the mistletoe."
+    },
+    {
+      "id": "p_christmas_family_box",
+      "code": "JD031202",
+      "name": "Christmas Mini Family box",
+      "priceMmk": 24000,
+      "isNew": false,
+      "discountPercent": 50,
+      "imageAsset": "assets/images/box_family.png",
+      "imageUrl": "images/box_family.png",
+      "description": "A colourful family box with strawberry, matcha, blueberry and classic glazed minis. Enough smiles for the whole table."
+    },
+    {
+      "id": "p_strawberry_chocolate",
+      "code": "JD011045",
+      "name": "Strawberry Chocolate Donuts",
+      "priceMmk": 2800,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_strawberry.png",
+      "imageUrl": "images/donut_strawberry.png",
+      "description": "Bright strawberry glaze striped with Belgian chocolate. Our most popular donut for three years running."
+    },
+    {
+      "id": "p_dalgona_coffee",
+      "code": "JD051010",
+      "name": "Dalgona Creamy Coffee",
+      "priceMmk": 4500,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/coffee_dalgona.png",
+      "imageUrl": "images/coffee_dalgona.png",
+      "description": "Whipped coffee cream over chilled fresh milk. Stir it up and pair it with any donut."
+    },
+    {
+      "id": "p_pink_sprinkle",
+      "code": "JD011002",
+      "name": "Pink Sprinkle Donut",
+      "priceMmk": 2500,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_pink_sprinkle.png",
+      "imageUrl": "images/donut_pink_sprinkle.png",
+      "description": "Strawberry icing with a rainbow of crunchy sprinkles. A classic that never gets old."
+    },
+    {
+      "id": "p_matcha",
+      "code": "JD011077",
+      "name": "Matcha Glazed Donut",
+      "priceMmk": 3000,
+      "isNew": true,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_matcha.png",
+      "imageUrl": "images/donut_matcha.png",
+      "description": "Japanese matcha glaze with a white chocolate drizzle. Earthy, sweet and very green."
+    },
+    {
+      "id": "p_santa_cookies",
+      "code": "JD041120",
+      "name": "Santa's favorite cookies set",
+      "priceMmk": 6000,
+      "isNew": false,
+      "discountPercent": 20,
+      "imageAsset": "assets/images/cookies_santa.png",
+      "imageUrl": "images/cookies_santa.png",
+      "description": "Six chewy chocolate chip cookies on a festive plate. Leave one out for Santa."
+    },
+    {
+      "id": "p_caramel_latte",
+      "code": "JD051022",
+      "name": "Caramel Iced Latte",
+      "priceMmk": 4200,
+      "isNew": false,
+      "discountPercent": 20,
+      "imageAsset": "assets/images/coffee_caramel_latte.png",
+      "imageUrl": "images/coffee_caramel_latte.png",
+      "description": "Espresso, cold milk and house-made caramel over ice."
+    },
+    {
+      "id": "p_choco_sprinkle",
+      "code": "JD011019",
+      "name": "Chocolate Sprinkle Donut",
+      "priceMmk": 2600,
+      "isNew": false,
+      "discountPercent": 20,
+      "imageAsset": "assets/images/donut_choco_sprinkle.png",
+      "imageUrl": "images/donut_choco_sprinkle.png",
+      "description": "Rich chocolate icing with rainbow sprinkles."
+    },
+    {
+      "id": "p_blueberry",
+      "code": "JD011088",
+      "name": "Blueberry Glazed Donut",
+      "priceMmk": 2900,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_purple_glaze.png",
+      "imageUrl": "images/donut_purple_glaze.png",
+      "description": "A glossy blueberry glaze made with real berries."
+    },
+    {
+      "id": "p_americano",
+      "code": "JD051001",
+      "name": "Iced Americano",
+      "priceMmk": 3000,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/coffee_americano.png",
+      "imageUrl": "images/coffee_americano.png",
+      "description": "Double espresso over ice with a splash of milk."
+    }
+  ],
+  "banners": [
+    {
+      "id": "b_central",
+      "title": "We are now at Central Boulevard",
+      "tag": "New shop",
+      "backgroundHex": "#6A58D3",
+      "imageAsset": "assets/images/shop_storefront.png",
+      "imageUrl": "images/shop_storefront.png"
+    },
+    {
+      "id": "b_hot_chocolate",
+      "title": "Hot drinks are back for the season",
+      "tag": "50% off",
+      "backgroundHex": "#5BCDEA",
+      "imageAsset": "assets/images/coffee_caramel_latte.png",
+      "imageUrl": "images/coffee_caramel_latte.png"
+    },
+    {
+      "id": "b_family_box",
+      "title": "Holiday boxes for the whole family",
+      "tag": "Limited",
+      "backgroundHex": "#EE4D96",
+      "imageAsset": "assets/images/box_family.png",
+      "imageUrl": "images/box_family.png"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s_seasonal",
+      "title": "Seasonal specials",
+      "emoji": null,
+      "layout": "wide",
+      "productIds": ["p_mistletoe_box", "p_christmas_family_box", "p_coconut", "p_matcha"]
+    },
+    {
+      "id": "s_popular",
+      "title": "Popular",
+      "emoji": "🔥",
+      "layout": "tall",
+      "productIds": ["p_strawberry_chocolate", "p_dalgona_coffee", "p_pink_sprinkle", "p_blueberry"]
+    },
+    {
+      "id": "s_order_again",
+      "title": "Order again",
+      "emoji": null,
+      "layout": "square",
+      "productIds": ["p_santa_cookies", "p_caramel_latte", "p_choco_sprinkle", "p_americano"]
+    }
+  ],
+  "shops": [
+    {
+      "id": "sh_myaynigone",
+      "name": "Myaynigone J'Donut",
+      "address": "2972 Pyay Road, Sanchaung Township, Yangon.",
+      "imageAsset": "assets/images/shop_myaynigone.png",
+      "imageUrl": "images/shop_myaynigone.png"
+    },
+    {
+      "id": "sh_sanchaung",
+      "name": "Sanchaung J'Donut",
+      "address": "41 Baho Road, Sanchaung Township, Yangon.",
+      "imageAsset": "assets/images/shop_sanchaung.png",
+      "imageUrl": "images/shop_sanchaung.png"
+    },
+    {
+      "id": "sh_central",
+      "name": "Central Boulevard J'Donut",
+      "address": "Central Boulevard Mall, Level 1, Yangon.",
+      "imageAsset": "assets/images/shop_myaynigone.png",
+      "imageUrl": "images/shop_myaynigone.png"
+    },
+    {
+      "id": "sh_kamayut",
+      "name": "Kamayut J'Donut",
+      "address": "118 Insein Road, Kamayut Township, Yangon.",
+      "imageAsset": "assets/images/shop_sanchaung.png",
+      "imageUrl": "images/shop_sanchaung.png"
+    }
+  ],
+  "tiers": [
+    { "id": "silver", "name": "Silver", "minPoints": 0 },
+    { "id": "gold", "name": "Gold", "minPoints": 2000 },
+    { "id": "platinum", "name": "Platinum", "minPoints": 5000 }
+  ],
+  "member": {
+    "id": "me",
+    "displayName": "Hania",
+    "photoAsset": "assets/images/avatar_member.png",
+    "tierId": "silver",
+    "tierPoints": 1500,
+    "totalPoints": 680000,
+    "notificationCount": 2,
+    "rewardsCount": 3
+  },
+  "challenges": [
+    {
+      "id": "c_coco_done",
+      "title": "Eat 4 Coco donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "artwork": "donut",
+      "imageAsset": "assets/images/donut_pink_sprinkle.png"
+    },
+    {
+      "id": "c_coco_started",
+      "title": "Eat 4 Coco donuts",
+      "progress": 1,
+      "goal": 4,
+      "rewardPoints": 100,
+      "artwork": "donut",
+      "imageAsset": "assets/images/donut_pink_sprinkle.png"
+    },
+    {
+      "id": "c_americano",
+      "title": "Drink 12 cups americano",
+      "progress": 9,
+      "goal": 12,
+      "rewardPoints": 100,
+      "artwork": "coffee",
+      "imageAsset": "assets/images/coffee_americano.png"
+    }
+  ],
+  "gifts": [
+    {
+      "id": "g_free_donut",
+      "title": "A free Pink Sprinkle Donut",
+      "pointsCost": 500,
+      "imageAsset": "assets/images/donut_pink_sprinkle.png"
+    },
+    {
+      "id": "g_coffee",
+      "title": "Any iced coffee on us",
+      "pointsCost": 800,
+      "imageAsset": "assets/images/coffee_caramel_latte.png"
+    },
+    {
+      "id": "g_family_box",
+      "title": "Christmas Mini Family box",
+      "pointsCost": 2400,
+      "imageAsset": "assets/images/box_family.png"
+    }
+  ]
+}
