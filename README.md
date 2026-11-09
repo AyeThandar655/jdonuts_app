@@ -206,4 +206,4 @@ Current status: `flutter analyze` reports no issues and `flutter test` passes al
 
 ## Time spent
 
-About one and a half days, using an AI coding assistant for scaffolding. All code was reviewed by me and tested on iOS and Android.
+About one and a half days, using an AI coding assistant for scaffolding. All code was reviewed and tested on iOS and Android.
