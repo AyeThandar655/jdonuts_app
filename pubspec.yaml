@@ -1,0 +1,63 @@
+name: jdonuts
+description: J'Donuts customer app — onboarding, offline-first Home and Product detail, animated Rewards.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management + DI
+  flutter_riverpod: ^3.0.0
+  # Navigation
+  go_router: '>=16.0.0 <18.0.0'
+  # Local database (single source of truth)
+  drift: ^2.28.0
+  drift_flutter: ^0.2.4
+  path_provider: ^2.1.5
+  # Session
+  flutter_secure_storage: '>=9.2.4 <11.0.0'
+  # Network + connectivity
+  dio: ^5.8.0
+  connectivity_plus: '>=6.1.0 <8.0.0'
+  # Images with disk cache
+  cached_network_image: ^3.4.1
+  # Formatting / l10n
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.5.0
+  drift_dev: ^2.28.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/seed/
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800

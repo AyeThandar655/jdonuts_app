@@ -1,0 +1,22 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Generated (recreated by tool/setup.sh)
+*.g.dart
+lib/l10n/app_localizations*.dart
+
+# Mock server
+mock_server/.dart_tool/
+
+# Never commit the client's design screenshots
+designs/
