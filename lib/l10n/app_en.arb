@@ -1,0 +1,231 @@
+{
+  "@@locale": "en",
+  "appTitle": "J'Donuts",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonContinue": "Continue",
+  "commonRetry": "Retry",
+  "onboardingTitle": "Round food for every mood",
+  "onboardingGetStarted": "Let's get started",
+  "onboardingHaveAccount": "Already have an account?",
+  "onboardingLogIn": "Log in",
+  "socialGoogle": "Continue with Google",
+  "socialApple": "Continue with Apple",
+  "socialFacebook": "Continue with Facebook",
+  "legalPrefix": "By continuing, you acknowledge that you have read and agree to our ",
+  "legalTerms": "Terms of Use",
+  "legalAnd": " and ",
+  "legalPrivacy": "Privacy Policy",
+  "legalSuffix": ".",
+  "placeholderBody": "This isn't connected yet in this preview build.",
+  "phoneTitle": "Enter your phone number",
+  "phoneHint": "09 xxx xxx xxx",
+  "phoneErrorEmpty": "Enter your phone number.",
+  "phoneErrorInvalid": "Enter a valid Myanmar mobile number, e.g. 09 254 135 592.",
+  "phoneNotRegistered": "This number isn't registered yet.",
+  "phoneRegisterInstead": "Create an account with this number",
+  "phoneAlreadyRegistered": "This number already has an account.",
+  "phoneLogInInstead": "Log in instead",
+  "otpTitle": "Verify your number",
+  "otpSubtitle": "We've sent {length} digit OTP to {phone}",
+  "@otpSubtitle": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      },
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "otpNotReceived": "Didn't receive the code?",
+  "otpResendIn": "resend in ",
+  "otpMinutesSuffix": " min",
+  "otpResend": "Resend code",
+  "otpSending": "Sending a new code…",
+  "otpErrorWrong": "That code isn't right.",
+  "otpAttemptsLeft": "{count, plural, =1{1 try left.} other{{count} tries left.}}",
+  "@otpAttemptsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "otpErrorLocked": "{count} wrong codes. Entry is locked until you resend.",
+  "@otpErrorLocked": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nameTitle": "What's your name?",
+  "nameFirstHint": "First Name",
+  "nameLastHint": "Last Name",
+  "nameErrorRequired": "Enter your first name.",
+  "nameErrorTooLong": "Use {max} characters or fewer.",
+  "@nameErrorTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "nameErrorCharacters": "Use letters and spaces only.",
+  "dobTitle": "What's your date of birth?",
+  "dobMonthHint": "Month",
+  "dobDayHint": "Day",
+  "dobYearHint": "Year",
+  "dobErrorInvalid": "That date doesn't exist.",
+  "dobErrorFuture": "Date of birth can't be in the future.",
+  "dobErrorTooYoung": "You must be at least {age} years old.",
+  "@dobErrorTooYoung": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "dobErrorTooOld": "Enter a year from {year} onwards.",
+  "@dobErrorTooOld": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "welcomeTitle": "Welcome to the world of J'donuts",
+  "welcomeExplore": "Let's explore",
+  "offlineBanner": "You're offline. Showing saved data.",
+  "homeTierMember": "{tier} member",
+  "@homeTierMember": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "homePointsToNext": "{points} points left to become {tier} Member",
+  "@homePointsToNext": {
+    "placeholders": {
+      "points": {
+        "type": "String"
+      },
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotifications": "{count, plural, =0{No notifications} =1{1 notification} other{{count} notifications}}",
+  "@homeNotifications": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeDiscount": "{percent}% off",
+  "@homeDiscount": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "homeShopsTitle": "{count, plural, =1{There is 1 J'Donut shop near you 😋} other{There are {count} J'Donut shops near you 😋}}",
+  "@homeShopsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeExploreNow": "Explore now",
+  "homeOrderOnline": "Order Online",
+  "homeSectionEmpty": "Nothing here yet.",
+  "homeSectionsEmpty": "No collections to show yet.",
+  "homeBannersEmpty": "No offers right now.",
+  "homeShopsEmpty": "No shops nearby.",
+  "productNew": "New",
+  "productWhatsThis": "What's this?",
+  "productAddToCart": "Add to cart",
+  "productAdded": "Added {quantity} × {name} to your cart.",
+  "@productAdded": {
+    "placeholders": {
+      "quantity": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "productIncrease": "Increase quantity",
+  "productDecrease": "Decrease quantity",
+  "productNotFound": "This product isn't available.",
+  "rewardsTitle": "J' Donuts Rewards",
+  "rewardsBadgeLabel": "Rewards",
+  "rewardsBadge": "{count} rewards",
+  "@rewardsBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "rewardsTotalPoints": "Total points",
+  "rewardsTierCurrent": "You're here now",
+  "rewardsTierRemaining": "{points} pts Remaining to become {tier}",
+  "@rewardsTierRemaining": {
+    "placeholders": {
+      "points": {
+        "type": "String"
+      },
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "rewardsTierSoon": "You'll be here soon",
+  "rewardsTierUnlocked": "Unlocked",
+  "rewardsTabEarn": "Eat more earn more",
+  "rewardsTabGift": "Gift",
+  "rewardsProgress": "{progress}/{goal}",
+  "@rewardsProgress": {
+    "placeholders": {
+      "progress": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "rewardsEarn": "Earn",
+  "rewardsRedeem": "Redeem",
+  "rewardsPoints": "{points} pts",
+  "@rewardsPoints": {
+    "placeholders": {
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "rewardsGiftDetail": "Redeem with your points",
+  "rewardsChallengesEmpty": "No challenges right now.",
+  "rewardsGiftsEmpty": "No gifts right now.",
+  "navHome": "Home",
+  "navReward": "Reward",
+  "navOrder": "Order",
+  "navWallet": "Wallet",
+  "navSettings": "Settings",
+  "settingsLogOut": "Log out",
+  "settingsLogOutTitle": "Log out?",
+  "settingsLogOutBody": "You'll need your phone number and a code to log back in.",
+  "errorNetwork": "Can't reach the server. Showing saved data.",
+  "errorStorage": "Couldn't read saved data.",
+  "errorNotFound": "We couldn't find that.",
+  "errorServer": "The server had a problem. Try again soon.",
+  "errorGeneric": "Something went wrong."
+}
