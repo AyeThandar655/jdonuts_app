@@ -1,0 +1,10 @@
+name: jdonuts_mock_server
+description: Optional /v1 mock API for the J'Donuts app (serves the seed data and images).
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  shelf: ^1.4.2
