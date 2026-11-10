@@ -26,7 +26,7 @@ class JDonutsNavBar extends StatelessWidget {
   final ValueChanged<int> onTap;
 
   /// The active slot is this many times wider than an inactive one.
-  static const double _activeWeight = 2.4;
+  static const double _activeWeight = 2;
   static const double _iconSize = 22;
 
   @override
@@ -44,15 +44,20 @@ class JDonutsNavBar extends StatelessWidget {
           decoration: BoxDecoration(
             color: colors.primary,
             borderRadius: BorderRadius.circular(AppRadii.xxl),
-            boxShadow: [BoxShadow(color: colors.shadow, blurRadius: AppSpacing.xl)],
+            boxShadow: [
+              BoxShadow(color: colors.shadow, blurRadius: AppSpacing.xl),
+            ],
           ),
           child: LayoutBuilder(
             builder: (context, constraints) {
-              final unit = constraints.maxWidth / (items.length - 1 + _activeWeight);
-              double widthOf(int i) => i == currentIndex ? unit * _activeWeight : unit;
+              final unit =
+                  constraints.maxWidth / (items.length - 1 + _activeWeight);
+              double widthOf(int i) =>
+                  i == currentIndex ? unit * _activeWeight : unit;
               final left = List<double>.generate(
                 items.length,
-                (i) => List.generate(i, widthOf).fold<double>(0, (a, b) => a + b),
+                (i) =>
+                    List.generate(i, widthOf).fold<double>(0, (a, b) => a + b),
               );
               return Stack(
                 alignment: Alignment.centerLeft,
@@ -62,7 +67,8 @@ class JDonutsNavBar extends StatelessWidget {
                     curve: AppCurves.emphasized,
                     left: left[currentIndex] + AppSpacing.xs,
                     width: widthOf(currentIndex) - AppSpacing.s,
-                    top: (AppSizes.bottomNavHeight - AppSizes.bottomNavPill) / 2,
+                    top:
+                        (AppSizes.bottomNavHeight - AppSizes.bottomNavPill) / 2,
                     height: AppSizes.bottomNavPill,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
@@ -140,7 +146,8 @@ class _NavButton extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.fade,
                             softWrap: false,
-                            style: Theme.of(context).textTheme.labelMedium?.copyWith(color: colors.onPrimary),
+                            style: Theme.of(context).textTheme.labelMedium
+                                ?.copyWith(color: colors.onPrimary),
                           ),
                         )
                       : const SizedBox.shrink(),
