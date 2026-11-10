@@ -29,6 +29,8 @@ fi
 
 echo "› flutter pub get"
 flutter pub get
+echo "› App icons"
+dart run flutter_launcher_icons
 echo "› Localizations (gen-l10n)"
 flutter gen-l10n
 echo "› Drift code generation"
