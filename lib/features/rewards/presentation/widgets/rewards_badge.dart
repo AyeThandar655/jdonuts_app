@@ -38,7 +38,7 @@ class RewardsBadge extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(
             AppSpacing.l,
             AppSpacing.s,
-            AppSpacing.gutter,
+            AppSpacing.m,
             AppSpacing.s,
           ),
           decoration: BoxDecoration(
