@@ -178,8 +178,7 @@ class _SocialButtons extends StatelessWidget {
   }
 }
 
-/// Google's official multi-colour "G" (download it from Google's sign-in
-/// branding page and save it as [_asset]); until then a blue "G" stands in.
+/// Google's official multi-colour "G".
 class _GoogleMark extends StatelessWidget {
   const _GoogleMark({required this.size});
 
@@ -203,8 +202,7 @@ class _GoogleMark extends StatelessWidget {
       );
 }
 
-/// Facebook's mark: a blue disc with a white "f". The Material glyph cuts the
-/// "f" out of the disc, so a white dot behind it fills the cut-out.
+/// Facebook's mark: a blue disc with a white "f".
 class _FacebookMark extends StatelessWidget {
   const _FacebookMark({required this.size});
 

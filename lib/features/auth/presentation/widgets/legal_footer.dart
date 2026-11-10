@@ -5,7 +5,6 @@ import '../../../../core/theme/app_colors.dart';
 import '../../../../core/widgets/placeholder_sheet.dart';
 import '../../../../l10n/app_localizations.dart';
 
-/// "By continuing, you acknowledge … Terms of Use and Privacy Policy."
 class LegalFooter extends StatefulWidget {
   const LegalFooter({super.key});
 
